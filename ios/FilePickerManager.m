@@ -1,10 +1,10 @@
-#import "ImagePickerManager.h"
+#import "FilePickerManager.h"
 #import "RCTConvert.h"
 #import <AssetsLibrary/AssetsLibrary.h>
 
 @import MobileCoreServices;
 
-@interface ImagePickerManager ()
+@interface FilePickerManager ()
 
 @property (nonatomic, strong) UIAlertController *alertController;
 @property (nonatomic, strong) UIImagePickerController *picker;
@@ -15,7 +15,7 @@
 
 @end
 
-@implementation ImagePickerManager
+@implementation FilePickerManager
 
 RCT_EXPORT_MODULE();
 
